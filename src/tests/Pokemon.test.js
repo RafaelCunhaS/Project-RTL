@@ -41,7 +41,7 @@ describe('Testes do componente Pokemon.js', () => {
 
   it('Testa se existe um ícone de estrela nos Pokémons favoritados', async () => {
     renderWithRouter(<Pokemon pokemon={ pokemons[0] } isFavorite />);
-    const icon = screen.getByAltText('Pikachu is marked as favorite');
-    expect(icon).toHaveAttribute('src', '/star-icon.svg');
+    const favoriteIcon = screen.getByAltText('Pikachu is marked as favorite');
+    expect(favoriteIcon).toHaveAttribute('src', '/star-icon.svg');
   });
 });
