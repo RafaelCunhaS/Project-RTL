@@ -2,7 +2,11 @@
 
 Project made while studying at Trybe, a web development school.
 
-The project was designed to test the student's testing skills with the __React Testing Library__ (RTL) and check if it was able to:
+The project was made to test my testing skills with the __React Testing Library__ (RTL).
+
+### Skills Developed
+
+With this project I was able to:
 
  - Use queries from __RTL__ on automated tests.
  - Simulate events with __RTL__ on automated tests.
